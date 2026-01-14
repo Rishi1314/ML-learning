@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (don’t commit raw datasets unless tiny)
+phase_*/**/data/raw/
+phase_*/**/data/processed/
+
+# OS
+.DS_Store
